@@ -1,0 +1,1 @@
+select count(*) as number_routes from routes

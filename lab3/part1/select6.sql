@@ -1,0 +1,1 @@
+select * from routes group by rout_id having rout_id > (select count(*) as number from routes)
